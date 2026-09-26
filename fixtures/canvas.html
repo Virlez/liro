@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas OCR</title>
+  </head>
+  <body>
+    <h1>Canvas non sélectionnable</h1>
+    <canvas id="sample" width="900" height="260"></canvas>
+    <script>
+      const canvas = document.querySelector('#sample');
+      const ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#fffdf5';
+      ctx.fillRect(0, 0, 900, 260);
+      ctx.fillStyle = '#111';
+      ctx.font = '48px Arial';
+      ctx.fillText('Texte dessiné dans un canvas', 40, 110);
+      ctx.font = '36px Arial';
+      ctx.fillText('Reconnaissance locale', 40, 180);
+    </script>
+  </body>
+</html>

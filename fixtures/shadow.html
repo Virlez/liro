@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Article dynamique dans un Web Component</title>
+  </head>
+  <body>
+    <header><nav>Accueil Sport Culture</nav></header>
+    <h1>Un article rendu dans le Shadow DOM</h1>
+    <article id="article-principal">
+      <shadow-news-body></shadow-news-body>
+    </article>
+    <section aria-label="Recommandations">
+      <h2>Autres articles recommandés pour vous</h2>
+      <article id="article-recommande">
+        <p>
+          Cette recommandation visible dans le DOM classique est volontairement longue afin de
+          tromper un extracteur qui ne sait pas lire le contenu des composants Web modernes.
+        </p>
+        <p>
+          Elle ne doit jamais remplacer l’article principal, même si elle contient davantage de
+          texte directement accessible dans l’arbre du document.
+        </p>
+      </article>
+    </section>
+    <script>
+      const root = document.querySelector('shadow-news-body').attachShadow({ mode: 'open' });
+      root.innerHTML = `
+        <h2>Le contenu réellement demandé</h2>
+        <p>Le premier paragraphe du véritable article est rendu dans un Shadow DOM ouvert.</p>
+        <p>Le deuxième paragraphe apporte la suite essentielle que Liro doit conserver.</p>
+        <p>Le troisième paragraphe permet de vérifier que le texte est extrait jusqu’au bout.</p>`;
+    </script>
+  </body>
+</html>

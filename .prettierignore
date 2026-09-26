@@ -1,0 +1,7 @@
+.output/
+.wxt/
+node_modules/
+public/ocr/
+public/tessdata/
+playwright-report/
+test-results/

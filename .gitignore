@@ -1,0 +1,25 @@
+node_modules/
+.wxt/
+.output/
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# Fichiers système et IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives et paquets générés
+*.zip
+*.crx

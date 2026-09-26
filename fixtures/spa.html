@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>SPA dynamique</title>
+  </head>
+  <body>
+    <div id="app"><p>Chargement…</p></div>
+    <script>
+      setTimeout(() => {
+        document.querySelector('#app').innerHTML =
+          '<main><article><h1>Contenu chargé dynamiquement</h1><p>Cette application monopage remplace son contenu après le chargement initial afin de vérifier que Liro travaille sur l’état courant du document.</p></article></main>';
+        history.pushState({}, '', '/spa.html?ready=1');
+      }, 150);
+    </script>
+  </body>
+</html>
