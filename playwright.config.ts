@@ -6,7 +6,7 @@ export default defineConfig({
   workers: 1,
   webServer: {
     command: 'node scripts/fixture-server.mjs',
-    port: 4173,
+    url: 'http://127.0.0.1:4173/article.html',
     reuseExistingServer: true,
   },
   use: { trace: 'retain-on-failure' },
