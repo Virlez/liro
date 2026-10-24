@@ -1,12 +1,14 @@
 # Politique de confidentialité de Liro
 
-Dernière mise à jour : 26 septembre 2026.
+Dernière mise à jour : 25 octobre 2026.
 
 Liro fonctionne sans compte, sans serveur applicatif, sans publicité et sans télémétrie.
 
 ## Données traitées
 
 Selon l’action demandée, l’extension traite temporairement : le texte sélectionné, le contenu principal de la page, l’adresse et le titre de la page, une capture de la zone visible choisie, le texte produit par l’OCR et le texte envoyé à la voix système.
+
+Les actions de lecture (progression et retours entre les étapes) sont utilisées localement pour afficher la progression et proposer les aides du coach. La reprise utilise uniquement les articles ouverts volontairement dans Liro ; l’extension ne surveille pas l’historique général du navigateur. Dans les catégories du Chrome Web Store, ces traitements relèvent du contenu des sites Web, de l’activité de l’utilisateur et des informations de navigation, même lorsqu’ils restent sur l’appareil.
 
 ## Lieu du traitement
 
@@ -26,7 +28,9 @@ Le panneau Réglages permet de désactiver la reprise et d’effacer toutes les 
 
 ## Partage et vente
 
-Liro ne vend, ne loue, ne partage et ne transmet aucune donnée personnelle ou contenu de lecture. Aucun cookie de suivi n’est créé.
+Le développeur ne reçoit, ne vend ni ne loue les données personnelles ou les contenus de lecture. Liro ne les transmet pas à un serveur applicatif ; une voix de synthèse en ligne peut toutefois transmettre le texte à son fournisseur, comme indiqué plus haut. Aucun cookie de suivi n’est créé.
+
+Les données sont utilisées uniquement pour les fonctions de lecture demandées, conformément aux règles d’utilisation limitée des données du Chrome Web Store. Elles ne servent ni à la publicité, ni à la détermination de la solvabilité ou à l’octroi de prêts.
 
 ## Portée
 
