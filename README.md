@@ -4,6 +4,10 @@ Extension de lecture adaptative, locale et sans compte pour comprendre un texte 
 
 Liro est une extension Chrome/Edge (Manifest V3) qui aide à garder le fil et à aller au bout des textes du web, à son rythme. Elle adapte localement une page pour aider à commencer, suivre, décoder et reprendre. Elle s’adresse en priorité aux étudiants, jeunes adultes et actifs, notamment TDAH ou dys, sans exiger de diagnostic. Ce logiciel n’est pas un dispositif médical et ne formule aucune promesse de traitement, de compréhension ou de vitesse.
 
+## Pourquoi Liro ?
+
+Les outils d’aide à la lecture que j’avais identifiés pour les personnes dys ou TDAH ne couvraient pas un besoin précis : rendre utilisables les textes non sélectionnables, par exemple dans une image ou une page numérisée. Liro associe un OCR entièrement local aux aides de lecture pour extraire le texte d’une zone visible, le corriger puis le lire avec une présentation adaptée, sans transmettre le contenu à un service externe.
+
 ## Fonctionnalités
 
 - calibrage visuel A/B en quatre choix concrets, sans profil médical ;
